@@ -1,12 +1,3 @@
-/*
- * @Author: ywy
- */
-/*
- * @Author: ywy
- */
-/*
- * @Author: ywy
- */
 //异常时 功能码是请求功能码+0x80；异常码用来表示错误的类型
 class ModbusErrorEnum {
   static const int NO_ERROR = 0x00;

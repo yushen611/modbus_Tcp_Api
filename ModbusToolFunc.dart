@@ -1,13 +1,3 @@
-/*
- * @Author: ywy
- */
-/*
- * @Author: ywy
- */
-/*
- * @Author: ywy
- */
-
 import 'dart:typed_data';
 
 //工具函数：int转成字节
@@ -69,7 +59,7 @@ class Hex {
 
   //工具函数：unit8tohex
   static String uint8ToHex(Uint8List byteArr) {
-    if (byteArr == null || byteArr.length == 0) {
+    if (byteArr.length == 0) {
       return "";
     }
     Uint8List result = Uint8List(byteArr.length << 1);
