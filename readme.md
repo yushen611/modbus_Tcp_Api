@@ -2,6 +2,8 @@
 
 This is an API for the modbus tcp communication protocol based on the dart language and can be used for flutter communication
 
+**modbusDao里的代码是最新的稳定版本**
+
 <br>
 
 
